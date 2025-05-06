@@ -1,6 +1,6 @@
 <section class="relative overflow-hidden">
     <!-- Imagen de fondo -->
-    <div class="h-[300px] sm:h-[400px] lg:h-screen bg-[url('../../public/images/banners/wix.png')] bg-cover bg-center bg-no-repeat lg:absolute lg:inset-0 z-0"></div>
+    <div id="presentation-background" class="h-[300px] sm:h-[400px] lg:h-screen bg-[url('../../public/images/banners/wix.png')] bg-cover bg-center bg-no-repeat lg:absolute lg:inset-0 z-0"></div>
 
     <!-- Contenido -->
     <div class="relative z-10 flex items-center justify-center lg:justify-end px-4 py-10 lg:min-h-screen">
@@ -29,15 +29,14 @@
     document.addEventListener('DOMContentLoaded', () => {
         const backgroundElement = document.getElementById('presentation-background');
         
-            // --- Efecto Parallax (tu código existente) ---
-            const parallaxFactor = 0.6;
+        // --- Efecto Parallax (tu código existente) ---
+        const parallaxFactor = 0.6;
 
-            window.addEventListener('scroll', () => {
-                const scrollPosition = window.pageYOffset;
-                if (backgroundElement.offsetParent !== null) {
-                    backgroundElement.style.backgroundPositionY = (scrollPosition * parallaxFactor) +
-                        'px';
-                }
-            });
+        window.addEventListener('scroll', () => {
+            const scrollPosition = window.pageYOffset;
+            if (backgroundElement.offsetParent !== null) {
+                backgroundElement.style.backgroundPositionY = (scrollPosition * parallaxFactor) + 'px';
+            }
+        });
     });
 </script>
