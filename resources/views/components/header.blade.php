@@ -1,4 +1,4 @@
-<header>
+<header class="fixed top-0 left-0 right-0 z-50">
     <nav x-data="{ mobileMenuOpen: false }" class="bg-[var(--primary)]">
         <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
             <div class="relative flex h-16 items-center justify-between">
@@ -64,7 +64,8 @@
                                 id="user-menu-button" aria-expanded="false" aria-haspopup="true">
                                 <span class="absolute -inset-1.5"></span>
                                 <span class="sr-only">Open user menu</span>
-                                <img class="size-8 rounded-full" src="{{ asset('images/pruebas/profile.png') }}" alt="User profile picture">
+                                <img class="size-8 rounded-full" src="{{ asset('images/pruebas/profile.png') }}"
+                                    alt="User profile picture">
                             </button>
                         </div>
 

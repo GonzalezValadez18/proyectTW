@@ -8,12 +8,11 @@
     @vite(['./resources/css/app.css', './resources/js/app.js'])
 </head>
 
-
 <x-header />
 <body>
-    <main class="container mx-auto mt-8 px-4">
-        <p class="text-2xl/8 font-sans font-bold">FarmaPro</p>
-        <x-carrousel />
+    <main class="container mx-auto mt-16 px-4 ">
+        <x-presentation />
+        {{-- <x-carrousel /> --}}
     </main>
     
 </body>
