@@ -6,9 +6,9 @@
 ### Tecnologías Utilizadas
 Este proyecto se desarrolla con las siguientes tecnologías:
 
-- **Laravel** para el backend, proporcionando una arquitectura robusta y escalable.
-- **Tailwind CSS** para la creación de interfaces modernas y responsivas de manera eficiente.
-- **Alpine.js** para la interacción dinámica en el frontend, permitiendo una experiencia rápida sin la necesidad de frameworks JavaScript pesados.
+- ![Laravel](https://img.shields.io/badge/Laravel-%23FF2D20?style=for-the-badge&logo=laravel&logoColor=white) **Laravel** para el backend, proporcionando una arquitectura robusta y escalable.
+- ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-%2308B5E5?style=for-the-badge&logo=tailwind-css&logoColor=white) **Tailwind CSS** para la creación de interfaces modernas y responsivas de manera eficiente.
+- ![Alpine.js](https://img.shields.io/badge/Alpine.js-%231C1D1F?style=for-the-badge&logo=alpinejs&logoColor=white) **Alpine.js** para la interacción dinámica en el frontend, permitiendo una experiencia rápida sin la necesidad de frameworks JavaScript pesados.
 
 ---
 
